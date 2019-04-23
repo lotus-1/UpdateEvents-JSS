@@ -1,0 +1,25 @@
+{
+  "name": "updateevents-jss",
+  "version": "1.0.0",
+  "description": "An app that updates new events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape src/test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotus-1/UpdateEvents-JSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotus-1/UpdateEvents-JSS/issues"
+  },
+  "homepage": "https://github.com/lotus-1/UpdateEvents-JSS#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  }
+}
