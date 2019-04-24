@@ -1,8 +1,11 @@
-var http = require('http');
-var router = require('./router');
+const http = require('http');
+const router = require('./router');
+const fs = require('fs');
+const path = require('path');
 
-var port = 4000;
-var server = http.createServer(router);
+
+const port = 5001;
+const server = http.createServer(router);
 
 server.listen(port);
 console.log("Server is up runnig on port " + port);
