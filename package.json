@@ -4,7 +4,8 @@
   "description": "An app that updates new events.",
   "main": "index.js",
   "scripts": {
-    "test": "tape src/test.js | tap-spec"
+    "test": "tape src/test.js | tap-spec",
+    "server": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,12 @@
     "url": "https://github.com/lotus-1/UpdateEvents-JSS/issues"
   },
   "homepage": "https://github.com/lotus-1/UpdateEvents-JSS#readme",
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.88.0"
+  },
   "devDependencies": {
     "eslint": "^5.16.0",
+    "nodemon": "^1.18.11",
     "tap-spec": "^5.0.0",
     "tape": "^4.10.1"
   }
