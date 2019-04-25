@@ -3,12 +3,25 @@ body {
   background-image: url('http://paperlief.com/images/inside-airport-window-wallpaper-3.jpg');
   background-repeat: no-repeat;
   background-attachment: : fixed;
-  background-size: 100%;
-  margin: 0%;
-  background-position: 5% 5%:
+  background-position: fixed:
 }
 
-.h1 {
-  color: #ffad33;
-  font-size: 50px;
+h1 {
+  color: #ffff00;
+  font-size: 75px;
+}
+
+p {
+    color: #ffff00;
+    font-size: 45px;
+}
+
+input {
+  height: 40px;
+  width: 400px;
+}
+
+button {
+  height: 40px;
+  width: 80px;
 }
